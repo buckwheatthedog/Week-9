@@ -1,0 +1,206 @@
+	Product Specification Sheet
+
+
+
+
+Project Name: North Star AKA Project TEAM for families             Client: Overburdened families   
+Brand: N/A                                                                                   		  	: 
+Brand Characteristics/Keywords: N/A
+
+
+
+ 
+User Group:
+
+
+User profile(Age/Gender/Characteristics/Income etc.): 
+
+
+
+
+Parents, Coaches, Teachers, other parents, community members, neighbors (Those who can be role models to pre-teen children) (divorced parents, or otherwise overburdened in terms of time or money to dedicate to children.)
+
+
+Children from grades 4-8 (starting to acquire responsibility but still need coaching and process.)
+
+
+User Issues: What are the issues that the product needs to address/solve?
+
+
+General:
+
+
+Children of overburdened and/or divorced households have much higher rates of delinquency, drug abuse, poor academic performance, underdeveloped emotional intelligence skills etc. Most products for families focus on only the children, but not their parents impact on their development. The goal is to include both entities and recognize their impacts to each other, thereby shifting the power dynamic from “teacher to subject” to “teacher to teacher and team-member to team-member”. 
+
+
+Specific:
+
+
+Lack of structure in overburdened households (sequence of family events is erratic, constantly shifting sense of authority)
+
+
+Losing track of where a child or parent stand in terms of family household contributions (chores, responsibilities to each other)
+
+
+Understanding when and why one should give a reward to a child to make it most effective and developmentally relevant.
+
+
+Awareness of whether a child can stick to their academic and family responsibilities, for how long, and what types of action to take.
+
+
+
+
+
+
+ 
+User Environment:
+
+
+General: United States ( in relation to US cultural norms and practices around family and education.)
+
+
+Specified Use Location: In the home of a family. In specific rooms such as living room (for chores), kitchen (to help cook), office (to complete homework), and bedroom/living room (for relaxation/bonding time. 
+
+
+
+
+
+
+
+
+
+Product:
+
+
+“Family contribution facilitator/Recording mechanism”
+
+
+Product Characteristics: Tactile, contextual, semi-ambient, reminding, recording
+
+
+General: Context specific platform for the initialization and recording of family participation. 
+
+
+Specific: Internet compatible, physical reminder of family contributions. Exists as multiple artifacts, with one being placed in each room of highest family activity. Reminds children's and their parents of their responsibilities (to themselves, to their family members, to their house, and to each-other). Children and/or parents initialize a family contribution activity depending on the room they are in (context specific), complete the activity, then progress to the next room in the living space, making their way through the house as a type of “unlockable game”. 
+The product utilizes elements of gamification to motivate family members to fulfill their responsibilities. The product records all family contributions from family members, and rewards persons both in real time, and later on, as a mechanism to ensure reliable user participation.
+Family activities are either predetermined by a third party in the community (family therapist, coach, etc.), and/or through a democratic process between the parents and children in a family for the top priorities of the household. 
+
+
+
+
+
+
+
+
+Feature Set: 
+
+
+Ability to record when a family member contributes, and equate each contribution to a corresponding reward value or perk.
+
+
+Ambient indication of a context specific activity to be done. ie. If chores need to be done in the living room, the device in the living room will glow and/or produce sound until a family member has done the chores, and notified the device that they have been done.
+
+
+Technology:  
+
+
+Wifi/bluetooth/NFC compatibility
+
+
+LED ring matrix
+
+
+Microcontroller 
+
+
+Speaker and Mic 
+
+
+Input/Output devices (buttons) 
+
+
+Web application 
+
+
+IOS/Android application 
+
+
+
+Materials:
+
+
+Child-proof, flame-retardant durable, recyclable thermoplastic. 
+
+
+Mounting hooks
+
+
+Silicone rubber 
+
+
+Cost:
+
+
+Prototype : +- 100 USD
+
+
+Final : TBD
+
+
+Project Mission: 
+
+
+To help level the playing field for the children of overburdened households, academically, socially and beyond. To help combat the epidemic of learned helplessness experienced by the children of the socioeconomically disadvantaged. To build bonds between these children, their parents and their communities to help cultivate empowered citizens. To utilize parents and mentors natural abilities in the context of home life, where structure often dissolves. To help parents and mentors become collaborators in the processes of family responsibility and accountability, one activity at a time.
+
+
+Programming and Electronics specifications:
+
+
+Component parts:
+
+In terms of hardware, I would like this prototype to be a flexible and modifiable prototyping platform for my thesis, but I will center it's creation around one concept for efficiencies sake. I do however want to include space for added components and allow real time changes to be made to the prototype when I am in the field with users. 
+
+Parts:
+
+ * Adafruit Neopixel (or similair array of LED's) - for light based ambient notifications
+ 
+ * Accelorometer (for the ability to pick the device up and have motion based interaction) 
+
+ * A wifi chip, to record when users interact, for how long and other metadata to the cloud and receive on/off/disabling instructions    from the cloud.
+
+* A microphone to record speech data (not sure about this feature yet but I'd like to test it) 
+
+* One or more speakers to output speech and/or music based instructions/notifications/encouragement 
+
+* NFC reciever (not sure about this feature yet but I'd like to test it) 
+
+* On/off switches connected to accelorometer or other actuators
+
+
+In terms of software, there will be a web-app and/or phone app that allows parents and other caretakers to set up responsibilty/dignity building modules for their children and send them to devices spread around the house. The devices will communicate with said applications via wifi or NFC to chart progress. Specifics include:
+
+A database, to store reported current and past user data. (DATA)
+A parents/caretakers only login that shows family goals, selected modules, suggested rewards, and potential input from a family therapist. (DATA)
+A graphing system, to draw out historical family responsibility accoplishment data. (OUTPUT)
+An accelorometer connected to a switch to control on/off of each device. (INPUT)
+
+
+Challenges:
+
+I am making this prototpye so that I can test my assumptions based on my extensive research in the field and get real feedback on functionality. If I can't do this now, I'm not sure when I'll have the time to do it.
+
+Key challenges will be getting a fully functioning product out of this, but that is not neccesarily the goal. The project has different componenets and I'd like to test how they all interact, so that I know what I should keep and what I should omit for the final product in my thesis. I anticipate working with NFC, wifi, speakers and microphones to be highly challenging because I've never worked with them before. 
+
+The software and app components are less essential to the prototype, as I am mainly testing the physical components and novel parts of this invention to see if they are approporiate and relevant. I don't have much experience with UI design, so I won't be focusing on that. Instead, my main goal would be to just send data back and forth between an app and a device. If I could get that basic functionality, I would be very happy. Worst comes to worst, I could still get plenty of valuable data without a functioning app, and would still be able to push forward with my thesis. 
+
+Timeline
+
+What parts of the project do you anticipate you will complete in each of the next 5 weeks?
+
+Week 1: Write proposal, borrow a WiFi Arduino, make sure I can get WiFi to work, borrow accelorometer and other components and download all libraries. 
+Week 2: Acquire hardware components: relay, current sensor, WiFi, and build a prototype circuit with those pieces.
+Week 3: Build a first version of the software that displays current power usage and an on/off switch.
+Week 4: Integrate all the components together and debug.
+Week 5: Present complete project.
+
+
