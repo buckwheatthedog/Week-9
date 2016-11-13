@@ -1,0 +1,40 @@
+"Clay has memory" - visualizing the intangibles of the sculpting process and giving them form. 
+
+I propose to build a working mat that records a sculptors movements and intensity. The mat would consist of 4 square sensors that record magnitude and directional data while a sculptor is working, and translate that data into 3D topographical tiles, which I will then slipcast out of ceramic, fire and glaze. 
+
+
+During the process of making, there are many intangibles that are never truly manifested in the final piece. I wish to unearth and expose these intangibles, and give them form. The goal is to address the intangible "indentation" left as an object is created.We often concern ourselves with design as the "purpose, planning, or intention that exists or is thought to exist behind an action, fact, or material object", but rarely look at the unintended, unexpected, or improvisational aspects of the creation process that can yield results of beauty in their own right. Oftentimes, the final product of a design or artistic endeavor are the only artifacts that receive celebration. I wish to highlight the inherently beautiful process of creation by exposing the degree and intensity of work that the maker put into it. The final products will be tangible "self-portraits" of the artists process.
+
+Component Parts
+
+On the hardware side, there is a plastic covering that lays on top of 4 square force sensors. I am also exploring another version of recording data that involves an accelorometer attached to sculpting tools themselves. Specifics:
+
+* Arduino uno
+
+* Accelorometer ( INPUT ) 
+
+* 4 square force sensors ( INPUT ) 
+
+In terms of software, I will be using a CAD program that interfaces well with arduino such as Grasshopper/Firefly or OpenScad. 
+I will record the data coming into the sensors and either take a "snapshot" of their process and the resulting data, or I will average together all of the data from each session and use those numbers to generate form. Specifically, I will need to:
+
+* Attempt to hook up Firefly and grasshopper to my arduino to get real time data. (failing this, I will take snapshots and plug in data to Grasshopper manually) (OUTPUT) 
+
+* Write a Grasshopper definition that allows me to convert sensor data in the X,Y,Z planes into a CAD representation of a 3D topographical map. (OUTPUT)
+
+
+Challenges
+
+Mapping data from the force sensors is already proving difficult as I have to record and input 3 different axis from arduino to Grasshopper. 
+
+Another challenge is that I am concerned that my sensors will automatically read full values once clay is placed on them, due to their weight alone. 
+
+Timeline
+
+What parts of the project do you anticipate you will complete in each of the next 5 weeks?
+
+Week 1: Write proposal, borrow flex sensors, accelorometer, download libraries and set up proof of concept. 
+Week 2: Build and test mat and accelorometer tools. Test functionality and generate CAD
+Week 3: 3D print CAD I generated. 
+Week 4: Slipcast 3D prints
+Week 5: Present final results and talk about process. 
