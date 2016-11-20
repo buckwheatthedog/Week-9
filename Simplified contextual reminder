@@ -1,0 +1,75 @@
+
+
+Family Contextual Reminder (simplified)
+
+
+Simplified Version 1:
+
+
+Feature Set: 
+
+
+For the simplified version 1 of the family contextual reminder, I will focus on the relay of messages from the physical device to a text recording device (computer keyboard, phone etc.). I will focus on being able to send messages to an LCD screen or Dot Matrix display. My goal is that I can send a string of messages (tasks and family responsibilities) to a screen that the user can acknowledge and interact with. The extent of the interaction will include one user sending a message, and another reading it and acknowledging it with a push button. Once the push button is engaged, the next message on the screen will display. It will continue like this until all messages in the list are exhausted. 
+
+
+Parts:
+
+
+Communication: (one of the below)
+
+
+App (preferred, but not necessary)
+Computer keyboard 
+Keypad 
+
+
+Output:(one of the below)
+
+
+LCD screen
+LED dot-matrix 
+
+
+Input: (one of the below)
+
+
+Push-Button 
+Capacitive Push-Button 
+
+
+
+
+
+
+Simplified Version 2:
+
+
+For the simplified version 2 of the family contextual reminder, I will focus on the communication from one physical device in one room, to another physical device in another room. As a potential add on (if time permits) to Simplified Version 1, Simplified Version 2 will send a message to turn a light on another physical device in another room when a task is completed. The devices will continue to light up, back and forth until all messages in the list are exhausted. 
+
+
+Parts (including parts from Version 1) 
+
+
+Communication: (one of the below)
+
+
+Wifi or Bluetooth enabled arduinos x2
+Particle boards x2
+
+
+Output:
+
+
+Adafruit Neopixel 
+Speaker (if I have time) 
+
+
+
+
+
+
+
+
+
+
+
